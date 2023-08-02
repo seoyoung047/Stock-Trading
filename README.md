@@ -4,6 +4,8 @@
 
 auto_EbestRecieve.py : 실시간 차트 수집 및 DB전송
 
+  -> ebest_api.py :  이베스트 open api 사용 단수화 함수
+
 autosend.py : 실시간 수집 데이터 전처리 
 
   -> Concat_Chart.py : 차트 데이터 전처리
