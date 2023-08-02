@@ -104,7 +104,7 @@ while True:
     # 9시 00분 시작
     if date.second == 2:
 
-        conn = pymysql.connect(host='34.64.197.181', user='SUJIN', password='SUJIN', db='shin_db')
+        conn = pymysql.connect(host='', user='', password='', db='shin_db')
         cur = conn.cursor()
 
         emarts,shins,foods = get_news(cur)
