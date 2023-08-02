@@ -198,7 +198,7 @@ def select_data():
 
     for code in codes:
         # DB연결
-        conn = pymysql.connect(host='34.64.197.181', user='SUJIN', password='SUJIN', db='shin_db')
+        conn = pymysql.connect(host='', user='', password='', db='shin_db')
         cur = conn.cursor()
 
         sql = "SELECT * FROM CHART_{} ORDER BY Datetime DESC limit 20;".format(code)
