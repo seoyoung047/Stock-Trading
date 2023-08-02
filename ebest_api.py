@@ -7,8 +7,8 @@ from datetime import datetime
 
 def make_token():
 
-    APP_KEY = "PSLnfwwiJf5HaEEBvBmIIhPH4Z6P4QkchDN3"
-    APP_SECRET = "9JCohD0eRXfKTvEhlqAvJct8vfRlamFC"
+    APP_KEY = ""
+    APP_SECRET = ""
 
     header = {"content-type":"application/x-www-form-urlencoded"}
     param = {"grant_type":"client_credentials", "appkey":APP_KEY, "appsecretkey":APP_SECRET,"scope":"oob"}
