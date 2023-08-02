@@ -19,10 +19,10 @@ date = pd.to_datetime(now_date_format)
 
 # DB연결
 
-conn = pymysql.connect(host='34.64.197.181', user='SUJIN', password='SUJIN', db='shin_db')
+conn = pymysql.connect(host='', user='', password='', db='shin_db')
 cur = conn.cursor()
 
-r = redis.Redis(host='34.64.63.106', port=6379, db=0)   
+r = redis.Redis(host='', port=, db=0)   
 
 
 ####################################### 거래내역 ###################################################
