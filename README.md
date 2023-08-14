@@ -6,6 +6,7 @@
 
 22_23_concat.ipynb : 과거 종목 데이터 전처리(이베스트증권)
 
+concat_data.ipynb :  과거 2년치(21년 6월28일 ~ 23년 7월20일) 종목 데이터 합치기
 
 
 auto_EbestRecieve.py : 실시간 차트 수집 및 DB전송
