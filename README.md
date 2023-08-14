@@ -2,6 +2,11 @@
 
 # 주식 트레이딩 및 실매매
 
+21_22_concat.ipynb
+22_23_concat.ipynb : 과거 종목 데이터 전처리1
+
+
+
 auto_EbestRecieve.py : 실시간 차트 수집 및 DB전송
 
 ebest_api.py :  이베스트 open api 사용 함수
