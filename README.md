@@ -2,7 +2,7 @@
 
 # 주식 트레이딩 및 실매매
 
-PDF 파일 : rainbow_company.pdf
+## PDF 파일 : rainbow_company.pdf
 
 
 
